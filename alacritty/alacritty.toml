@@ -1,0 +1,26 @@
+import = ["~/.config/alacritty/theme/taerminal.toml"]
+
+[window]
+
+startup_mode = "Maximized"
+dynamic_title = false
+title = 'Terminal'
+opacity = 1.0
+padding.x = 10
+padding.y = 10
+decorations = "Full"
+
+[font]
+
+normal.family = "FiraCode Nerd Font"
+bold.family = "FiraCode Nerd Font"
+italic.family = "FiraCode Nerd Font"
+bold_italic.family = "FiraCode Nerd Font"
+size = 8.0
+
+[cursor]
+blink_interval = 500
+[cursor.style]
+shape = "Block"
+blinking = "Always"
+
